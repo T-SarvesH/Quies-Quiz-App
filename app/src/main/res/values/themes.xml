@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Mini_proj" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Mini_proj" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorPrimary">@color/beeyellow</item>
+        <item name="android:colorSecondary">@color/yellowbg</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mini_proj" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
 </resources>
