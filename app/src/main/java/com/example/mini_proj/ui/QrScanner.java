@@ -61,6 +61,12 @@ public class QrScanner extends Fragment implements DecodeCallback {
         // Inflate the layout for this fragment
         binding = FragmentQrScannerBinding.inflate(inflater, container, false);
         scanner = new CodeScanner(getActivity(), binding.scannerView);
+        binding.scannerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                scanner.startPreview();
+            }
+        });
         return binding.getRoot();
     }
 
@@ -69,5 +75,17 @@ public class QrScanner extends Fragment implements DecodeCallback {
 
                 Toast.makeText(getContext(), result.getText(), Toast.LENGTH_SHORT).show();
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        scanner.startPreview();
+    }
+
+    @Override
+    public void onPause() {
+        scanner.releaseResources();
+        super.onPause();
     }
 }
