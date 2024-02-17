@@ -1,10 +1,12 @@
 package com.example.mini_proj.ui;
 
+import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,10 +27,9 @@ public class QrScanner extends Fragment implements DecodeCallback {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
     private CodeScanner scanner;
     FragmentQrScannerBinding binding;
+    String u ="j";
 
     public QrScanner() {
         // Required empty public constructor
@@ -67,13 +68,19 @@ public class QrScanner extends Fragment implements DecodeCallback {
                 scanner.startPreview();
             }
         });
+        Toast.makeText(getContext(),"ji", Toast.LENGTH_SHORT).show();
+
         return binding.getRoot();
     }
 
     @Override
     public void onDecoded(@NonNull Result result) {
+                u=result.getText();
+        while(true)
+        {
+            Log.d("chk", u);
+        }
 
-                Toast.makeText(getContext(), result.getText(), Toast.LENGTH_SHORT).show();
 
     }
 

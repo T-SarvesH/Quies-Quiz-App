@@ -7,6 +7,14 @@
     android:fitsSystemWindows="true"
     tools:context=".EditorActivity">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/qrfragmentContainerView"
+        android:name="com.example.mini_proj.ui.QrScanner"
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:layout_gravity="bottom"
+        tools:layout="@layout/fragment_qr_scanner"/>
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
