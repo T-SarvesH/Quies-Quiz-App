@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <declare-styleable name="dt">
+            <attr name="bg" format="color"/>
+            <attr name="cc" format="color"/>
+            <attr name="tc" format="color"/>
+            <!--attr name="tc2" format="color"/-->
+        </declare-styleable>>
+</resources>

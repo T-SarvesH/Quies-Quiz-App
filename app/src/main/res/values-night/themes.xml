@@ -8,6 +8,15 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:colorPrimary">@color/beeyellow</item>
         <item name="android:colorSecondary">@color/yellowdark</item>
+        <!-- Customize your light theme here. -->
+        <item name="bg">@color/yellowdark</item>
+        <item name="cc">@color/white</item>
+        <item name="tc">@color/yellowbg</item>
+        <item name="android:colorBackground">@color/yellowbg</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+
+
 
 </resources>

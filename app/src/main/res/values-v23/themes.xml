@@ -6,4 +6,26 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
     </style>
+
+    <style name="Base.Theme.Mini_proj" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="bg">@color/yellowbg</item>
+        <item name="cc">@color/white</item>
+        <item name="tc">@color/yellowdark</item>
+        <item name="android:colorPrimary">@color/beeyellow</item>
+        <item name="android:colorSecondary">@color/yellowbg</item>
+        <item name="android:colorBackground">@color/yellowbg</item>
+        <item name="colorOnBackground">@color/yellowdark</item>
+        <item name="android:textColor">@color/yellowdark</item>
+        <item name="colorOutline">@color/yellowdark</item>
+        <item name="android:colorForeground">@color/yellowbg</item>
+        <item name="textAppearanceButton">@style/TextAppearance.AppCompat.Button.Custom</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="TextAppearance.AppCompat.Button.Custom" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/yellowbg</item>
+        <item name="android:backgroundTint">@color/yellowdark</item>
+        <item name="fontFamily">@font/nova_mono</item>
+    </style>
 </resources>
