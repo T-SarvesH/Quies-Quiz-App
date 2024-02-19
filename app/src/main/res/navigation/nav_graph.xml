@@ -3,26 +3,52 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
-
+    app:startDestination="@id/qrScanner">
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.mini_proj.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/choiceFragment"
+        android:name="com.example.mini_proj.ui.ChoiceFragment"
+        android:label="fragment_choice"
+        tools:layout="@layout/fragment_choice" >
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_choiceFragment_to_bluetooth"
+            app:destination="@id/bluetooth" />
+        <action
+            android:id="@+id/action_choiceFragment_to_qrScanner"
+            app:destination="@id/qrScanner" />
+        <action
+            android:id="@+id/action_choiceFragment_to_wifiDirect2"
+            app:destination="@id/wifiDirect" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.mini_proj.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/bluetooth"
+        android:name="com.example.mini_proj.ui.Bluetooth"
+        android:label="fragment_bluetooth"
+        tools:layout="@layout/fragment_bluetooth" >
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_bluetooth_to_quizFragment"
+            app:destination="@id/quizFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/qrScanner"
+        android:name="com.example.mini_proj.ui.QrScanner"
+        android:label="fragment_qr_scanner"
+        tools:layout="@layout/fragment_qr_scanner" >
+        <action
+            android:id="@+id/action_qrScanner_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wifiDirect"
+        android:name="com.example.mini_proj.ui.WifiDirect"
+        android:label="fragment_wifi_direct"
+        tools:layout="@layout/fragment_wifi_direct" >
+        <action
+            android:id="@+id/action_wifiDirect_to_quizFragment2"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.mini_proj.ui.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
 </navigation>

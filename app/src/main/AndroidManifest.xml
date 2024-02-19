@@ -21,6 +21,10 @@
         android:theme="@style/Theme.Mini_proj"
         tools:targetApi="31">
         <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
             android:name=".QuizJoinerActivity"
             android:exported="false"
             android:label="@string/title_activity_quiz_joiner"
@@ -40,9 +44,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Mini_proj">
-
-        </activity>
+            android:theme="@style/Theme.Mini_proj"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

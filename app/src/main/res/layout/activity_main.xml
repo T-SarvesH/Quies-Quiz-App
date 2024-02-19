@@ -54,7 +54,7 @@
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
         android:text="Join Quiz"
-        android:textColor="@color/yellowdark"
+        android:textColor="?attr/tc"
         android:textSize="34sp"
         app:strokeWidth="8dp" />
 
@@ -74,7 +74,7 @@
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
         android:text="Create Quiz"
-        android:textColor="@color/yellowdark"
+        android:textColor="?attr/tc"
         android:textSize="34sp"
         app:strokeWidth="8dp" />
 

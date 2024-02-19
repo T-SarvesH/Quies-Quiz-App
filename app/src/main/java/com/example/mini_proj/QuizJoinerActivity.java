@@ -20,6 +20,7 @@ public class QuizJoinerActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityQuizJoinerBinding binding;
+    public static String resu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,7 @@ public class QuizJoinerActivity extends AppCompatActivity {
         binding = ActivityQuizJoinerBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setSupportActionBar(binding.toolbar);
+        //setSupportActionBar(binding.toolbar);
 
         //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_quiz_joiner);
         //appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();

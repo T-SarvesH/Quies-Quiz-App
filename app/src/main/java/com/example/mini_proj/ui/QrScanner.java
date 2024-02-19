@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.budiyev.android.codescanner.CodeScanner;
 import com.budiyev.android.codescanner.DecodeCallback;
+import com.example.mini_proj.QuizJoinerActivity;
 import com.example.mini_proj.R;
 import com.example.mini_proj.databinding.FragmentQrScannerBinding;
 import com.google.zxing.Result;
@@ -61,13 +62,10 @@ public class QrScanner extends Fragment implements DecodeCallback {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         binding = FragmentQrScannerBinding.inflate(inflater, container, false);
-        scanner = new CodeScanner(getActivity(), binding.scannerView);
-        binding.scannerView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        scanner = new CodeScanner(requireActivity().getBaseContext(), binding.scannerView);
+
                 scanner.startPreview();
-            }
-        });
+
         Toast.makeText(getContext(),"ji", Toast.LENGTH_SHORT).show();
 
         return binding.getRoot();
@@ -75,11 +73,9 @@ public class QrScanner extends Fragment implements DecodeCallback {
 
     @Override
     public void onDecoded(@NonNull Result result) {
-                u=result.getText();
-        while(true)
-        {
-            Log.d("chk", u);
-        }
+                QuizJoinerActivity.resu =result.getText();
+                Log.d("chk", result.getText());
+                getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView2, new QuizFragment()).commit();
 
 
     }
