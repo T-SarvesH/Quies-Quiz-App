@@ -10,16 +10,17 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Mini_proj" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="bg">@color/yellowbg</item>
-        <item name="cc">@color/white</item>
-        <item name="tc">@color/yellowdark</item>
-        <item name="android:colorPrimary">@color/beeyellow</item>
-        <item name="android:colorSecondary">@color/yellowbg</item>
-        <item name="android:colorBackground">@color/yellowbg</item>
-        <item name="colorOnBackground">@color/yellowdark</item>
-        <item name="android:textColor">@color/yellowdark</item>
-        <item name="colorOutline">@color/yellowdark</item>
-        <item name="android:textColorPrimary">@color/yellowbg</item>
+        <item name="bg">@color/bluebg</item>
+        <item name="cc">@color/ccl</item>
+        <item name="tc">@color/bluefg</item>
+        <item name="android:colorPrimary">@color/bluefg</item>
+        <item name="android:colorSecondary">@color/ccl</item>
+        <item name="android:colorBackground">@color/bluebg</item>
+        <item name="colorOnBackground">@color/bluefg</item>
+        <item name="android:textColor">@color/bluefg</item>
+        <item name="android:buttonTint">@color/bluefg</item>
+        <item name="colorOutline">@color/bluefg</item>
+        <item name="android:textColorPrimary">@color/bluebg</item>
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 </resources>
