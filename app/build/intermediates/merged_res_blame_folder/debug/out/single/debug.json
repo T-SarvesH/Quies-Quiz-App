@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\font_nova_mono.ttf.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\font\\nova_mono.ttf"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\font_exo_2_light.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\font\\exo_2_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\font_source_sans_pro.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\font\\source_sans_pro.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_activity_editor.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_activity_qr_display.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_qr_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_buttontextstate.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\buttontextstate.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_settings_activity.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_buttonstate.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\buttonstate.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\font_ntr.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\font\\ntr.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_question.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\question.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\xml\\root_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mini_proj.app-merged_res-67:/layout_activity_main.xml.flat",
+        "source": "com.example.mini_proj.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_buttontextstatedark.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\buttontextstatedark.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_activity_scanner.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_buttonstatedark.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\buttonstatedark.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_activity_quiz_joiner.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_quiz_joiner.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\drawable_baseline_close_24.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\drawable\\baseline_close_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\font_exo_2.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\font\\exo_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_questhumb.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\questhumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\font_exo_2_medium.ttf.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\font\\exo_2_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\font_pangolin.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\font\\pangolin.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-merged_res-67:\\layout_fragment_quiz.xml.flat",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\fragment_quiz.xml"
+    }
+]

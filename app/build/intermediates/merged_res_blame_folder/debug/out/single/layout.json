@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\activity_quiz_joiner.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_quiz_joiner.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\content_main.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\questhumb.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\questhumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\activity_editor.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\activity_scanner.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "com.example.mini_proj.app-mergeDebugResources-66:/layout/activity_main.xml",
+        "source": "com.example.mini_proj.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\question.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\question.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\fragment_quiz.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\fragment_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\settings_activity.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-66:\\layout\\activity_qr_display.xml",
+        "source": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-main-69:\\layout\\activity_qr_display.xml"
+    }
+]

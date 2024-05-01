@@ -1,0 +1,148 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\shaun\\.gradle\\daemon\\8.0\\com.example.mini_proj.app-mergeDebugResources-65:\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shaun\\.gradle\\caches\\transforms-3\\f59b354bb9d6eb85e492eee27ed268b2\\transformed\\material-1.9.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "95,98,101,106,110,113,116,119,124,127,131",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5541,5757,5967,6287,6524,6731,6938,7141,7473,7675,7940",
+                        "endLines": "97,100,105,109,112,115,118,123,126,130,134",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "5752,5962,6282,6519,6726,6933,7136,7468,7670,7935,8208"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shaun\\.gradle\\caches\\transforms-3\\eb6f0767bf5e0d520020e949bf997bc0\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,22,36,50,51,52,55,59,60,61,62",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,1339,2077,2827,2946,3073,3295,3519,3634,3741,3854",
+                        "endLines": "2,3,4,5,35,49,50,51,54,58,59,60,61,65",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,2072,2822,2941,3068,3290,3514,3629,3736,3849,4079"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shaun\\AndroidStudioProjects\\Mini-Project\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "9,31,-1,-1,2",
+                        "startColumns": "4,4,-1,-1,4",
+                        "startOffsets": "438,1681,-1,-1,64",
+                        "endLines": "24,38,-1,-1,7",
+                        "endColumns": "12,12,-1,-1,12",
+                        "endOffsets": "1391,2039,-1,-1,432"
+                    },
+                    "to": {
+                        "startLines": "6,66,77,84,89",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "487,4084,4597,4934,5218",
+                        "endLines": "21,73,83,88,94",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "1334,4442,4929,5213,5536"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shaun\\.gradle\\caches\\transforms-3\\8b101fceda206c0ff4dd6915d3edca7d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "74",
+                        "startColumns": "4",
+                        "startOffsets": "4447",
+                        "endLines": "76",
+                        "endColumns": "12",
+                        "endOffsets": "4592"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.mini_proj.app-mergeDebugResources-65:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shaun\\.gradle\\caches\\transforms-3\\f59b354bb9d6eb85e492eee27ed268b2\\transformed\\material-1.9.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "96,99,102,107,111,114,117,120,125,128,132",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5602,5818,6028,6348,6585,6792,6999,7202,7534,7736,8001",
+                        "endLines": "98,101,106,110,113,116,119,124,127,131,135",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "5813,6023,6343,6580,6787,6994,7197,7529,7731,7996,8269"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shaun\\.gradle\\caches\\transforms-3\\eb6f0767bf5e0d520020e949bf997bc0\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,23,37,51,52,53,56,60,61,62,63",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,1400,2138,2888,3007,3134,3356,3580,3695,3802,3915",
+                        "endLines": "2,3,4,5,36,50,51,52,55,59,60,61,62,66",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,2133,2883,3002,3129,3351,3575,3690,3797,3910,4140"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shaun\\AndroidStudioProjects\\Mini-Project\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "9,-1,-1,-1,2",
+                        "startColumns": "4,-1,-1,-1,4",
+                        "startOffsets": "438,-1,-1,-1,64",
+                        "endLines": "25,-1,-1,-1,7",
+                        "endColumns": "12,-1,-1,-1,12",
+                        "endOffsets": "1452,-1,-1,-1,432"
+                    },
+                    "to": {
+                        "startLines": "6,67,78,85,90",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "487,4145,4658,4995,5279",
+                        "endLines": "22,74,84,89,95",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "1395,4503,4990,5274,5597"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shaun\\.gradle\\caches\\transforms-3\\8b101fceda206c0ff4dd6915d3edca7d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "75",
+                        "startColumns": "4",
+                        "startOffsets": "4508",
+                        "endLines": "77",
+                        "endColumns": "12",
+                        "endOffsets": "4653"
+                    }
+                }
+            ]
+        }
+    ]
+}
