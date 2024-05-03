@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        i = new Intent(this, QuizJoinerActivity.class);
+        i = new Intent(this, RecieveQuiz.class);
         j = new Intent(this, EditorActivity.class);
         k = new Intent(this, SettingsActivity.class);
         binding.button.setOnClickListener(this);
