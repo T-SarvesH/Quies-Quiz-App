@@ -1,0 +1,104 @@
+package com.example.mini_proj;
+
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.journeyapps.barcodescanner.ScanContract;
+import com.journeyapps.barcodescanner.ScanOptions;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class RecieveQuiz extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_recieve_quiz);
+        Button b = findViewById(R.id.button6);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                scan();
+            }
+        });
+    }
+
+
+    void scan()
+    {
+        ScanOptions scanopt = new ScanOptions();
+        scanopt.setBeepEnabled(true);
+        scanopt.setPrompt("scan");
+        scanopt.setCameraId(0);
+        scanopt.setDesiredBarcodeFormats(ScanOptions.QR_CODE);
+        scanopt.setBarcodeImageEnabled(true);
+        scanopt.setOrientationLocked(true);
+        scanopt.setCaptureActivity(ScannerActivity.class);
+        launcher.launch(scanopt);
+        Log.d("ques", "scannd");
+    }
+
+    private final ActivityResultLauncher<ScanOptions> launcher = registerForActivityResult(new ScanContract(),
+            result -> {
+                String c="";
+                try{
+                    c = result.getContents();
+                    if (c == null) {
+                        Toast.makeText(RecieveQuiz.this, "Cancelled", Toast.LENGTH_LONG).show();
+                    } else {
+
+                        Toast.makeText(RecieveQuiz.this, "Scanned: " + c, Toast.LENGTH_LONG).show();
+
+                        Log.d("ques", c);
+                        parse(c);
+                    }
+                }catch (Exception e){
+                    parse(c);
+                }
+            });
+    void parse(String z)
+    {
+        Log.d("ques", "jo"+z) ;
+        String[] decompose = z.split("&&&");
+        String[] questionsp = decompose[0].split("---");
+        String[] choices = decompose[1].split("---");
+        String b="";
+        for (String n : questionsp)
+        {
+            b=n   ;
+            if(n.charAt(n.length()-1)=='\n') b=n.substring(0, n.length()-1);
+            if(n.charAt(0)=='\n') b=b.substring(1);
+            QuestionAnswer.question.add(b);
+
+        }
+        for (String n : choices)
+        {
+            b=n;
+            if(n.charAt(n.length()-1)=='\n') b=n.substring(0, n.length()-1);
+            if(n.charAt(0)=='\n') b=b.substring(1);
+            ArrayList<String> choi=new ArrayList<>();
+            String[] chchs= b.split("\n");
+            choi.addAll(Arrays.asList(chchs));
+            QuestionAnswer.choices.add(choi);
+
+        }
+        b=decompose[2];
+        if(decompose[2].charAt(decompose[2].length()-1)=='\n') b=decompose[2].substring(0, decompose[2].length()-1);
+        if(decompose[2].charAt(0)=='\n') b=b.substring(1);
+        String[] corr=b.split("\n");
+        for (String n : corr)
+        {
+            QuestionAnswer.correctAnswers.add(Integer.parseInt(n));
+        }
+        Intent i = new Intent(RecieveQuiz.this, QuizJoinerActivity.class);
+        startActivity(i);
+    }
+}
