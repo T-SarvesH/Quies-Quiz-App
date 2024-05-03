@@ -48,55 +48,67 @@ public class RecieveQuiz extends AppCompatActivity {
 
     private final ActivityResultLauncher<ScanOptions> launcher = registerForActivityResult(new ScanContract(),
             result -> {
-                String c="";
-                try{
+                String c;
+
                     c = result.getContents();
                     if (c == null) {
                         Toast.makeText(RecieveQuiz.this, "Cancelled", Toast.LENGTH_LONG).show();
                     } else {
-
+                        String p=c;
+                        parse(p);
                         Toast.makeText(RecieveQuiz.this, "Scanned: " + c, Toast.LENGTH_LONG).show();
 
                         Log.d("ques", c);
-                        parse(c);
+
                     }
-                }catch (Exception e){
-                    parse(c);
-                }
+
             });
     void parse(String z)
     {
-        Log.d("ques", "jo"+z) ;
-        String[] decompose = z.split("&&&");
-        String[] questionsp = decompose[0].split("---");
-        String[] choices = decompose[1].split("---");
-        String b="";
-        for (String n : questionsp)
-        {
-            b=n   ;
-            if(n.charAt(n.length()-1)=='\n') b=n.substring(0, n.length()-1);
-            if(n.charAt(0)=='\n') b=b.substring(1);
-            QuestionAnswer.question.add(b);
+        QuestionAnswer.correctAnswers.clear();
+        QuestionAnswer.question.clear();
+        QuestionAnswer.choices.clear();
+        try {
+            Log.d("ques", "jo" + z);
+            String[] decompose = z.split("&&&");
+            String[] questionsp = decompose[0].split("---");
+            String[] choices = decompose[1].split("---");
+            Log.d("ques", "ro1");
+            String b = "";
+            for (String n : questionsp) {
+                b = n;
+                if (n.charAt(n.length() - 1) == '\n') b = n.substring(0, n.length() - 1);
+                if (n.charAt(0) == '\n') b = b.substring(1);
+                QuestionAnswer.question.add(b);
 
-        }
-        for (String n : choices)
-        {
-            b=n;
-            if(n.charAt(n.length()-1)=='\n') b=n.substring(0, n.length()-1);
-            if(n.charAt(0)=='\n') b=b.substring(1);
-            ArrayList<String> choi=new ArrayList<>();
-            String[] chchs= b.split("\n");
-            choi.addAll(Arrays.asList(chchs));
-            QuestionAnswer.choices.add(choi);
+            }
+            Log.d("ques", "ro2");
+            for (String n : choices) {
+                b = n;
+                if (n.charAt(n.length() - 1) == '\n') b = n.substring(0, n.length() - 1);
+                if (n.charAt(0) == '\n') b = b.substring(1);
+                ArrayList<String> choi = new ArrayList<>();
+                String[] chchs = b.split("\n");
+                choi.addAll(Arrays.asList(chchs));
+                QuestionAnswer.choices.add(choi);
 
-        }
-        b=decompose[2];
-        if(decompose[2].charAt(decompose[2].length()-1)=='\n') b=decompose[2].substring(0, decompose[2].length()-1);
-        if(decompose[2].charAt(0)=='\n') b=b.substring(1);
-        String[] corr=b.split("\n");
-        for (String n : corr)
+            }
+            Log.d("ques", "ro3");
+            Log.d("ques", Arrays.toString(decompose) +"mm1 ");
+            b = decompose[2];
+            Log.d("ques", b+"mmx ");
+            if (decompose[2].charAt(decompose[2].length() - 1) == '\n')
+                b = decompose[2].substring(0, decompose[2].length() - 1);
+            Log.d("ques", b+" 1");
+            if (decompose[2].charAt(0) == '\n') b = b.substring(1);Log.d("ques", b+" 1");
+            String[] corr = b.split("\n");
+            for (String n : corr) {
+                QuestionAnswer.correctAnswers.add(Integer.parseInt(n));
+            }
+            Log.d("ques", "ro4");
+        }catch (Exception e)
         {
-            QuestionAnswer.correctAnswers.add(Integer.parseInt(n));
+            Log.d("ques", e.getMessage());
         }
         Intent i = new Intent(RecieveQuiz.this, QuizJoinerActivity.class);
         startActivity(i);

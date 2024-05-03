@@ -45,7 +45,7 @@
             android:theme="@style/Theme.Mini_proj" />
         <activity
             android:name=".EditorActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_editor"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Mini_proj" />

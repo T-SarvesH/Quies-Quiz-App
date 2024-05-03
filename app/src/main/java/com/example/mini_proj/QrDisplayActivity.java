@@ -39,7 +39,7 @@ public class QrDisplayActivity extends AppCompatActivity {
         for (String s: QuestionAnswer.question)
         {
             stringbing.append(s);
-            stringbing.append("?-");
+            stringbing.append("---");
 
         }
 
@@ -51,8 +51,9 @@ public class QrDisplayActivity extends AppCompatActivity {
                 stringbing.append(s1);
                 stringbing.append("\n");
             }
+            stringbing.append("---");
         }
-
+        stringbing.append("&&&");
         for (int s1: QuestionAnswer.correctAnswers)
         {
             stringbing.append(s1);

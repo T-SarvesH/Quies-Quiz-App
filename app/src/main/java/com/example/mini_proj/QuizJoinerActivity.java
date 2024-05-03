@@ -80,11 +80,17 @@ public class QuizJoinerActivity extends AppCompatActivity implements View.OnClic
     }
     @Override
     public void onClick(View view) {
-
-        ansA.setBackgroundColor(Color.WHITE);
-        ansB.setBackgroundColor(Color.WHITE);
-        ansC.setBackgroundColor(Color.WHITE);
-        ansD.setBackgroundColor(Color.WHITE);
+        int tc =getResources().getColor(R.color.bluebg);
+        int bg=getResources().getColor(R.color.ccl);
+        int corc =getResources().getColor(R.color.bluebgdark);
+        ansA.setBackgroundColor(bg);
+        ansB.setBackgroundColor(bg);
+        ansC.setBackgroundColor(bg);
+        ansD.setBackgroundColor(bg);
+        ansA.setTextColor(tc);
+        ansB.setTextColor(tc);
+        ansC.setTextColor(tc);
+        ansD.setTextColor(tc);
 
         Button clickedButton = (Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
@@ -97,7 +103,7 @@ public class QuizJoinerActivity extends AppCompatActivity implements View.OnClic
 
         }else {
             selectedAnswer = map.indexOf(clickedButton.getId());
-            clickedButton.setBackgroundColor(Color.MAGENTA);
+            clickedButton.setBackgroundColor(corc);
         }
 
     }
