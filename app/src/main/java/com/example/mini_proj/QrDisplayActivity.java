@@ -12,7 +12,9 @@ import android.widget.Toast;
 import com.google.zxing.BarcodeFormat;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.zip.Deflater;
 
 public class QrDisplayActivity extends AppCompatActivity {
 
@@ -33,8 +35,7 @@ public class QrDisplayActivity extends AppCompatActivity {
         }
     }
 
-    String parse()
-    {
+    String parse() throws UnsupportedEncodingException {
         StringBuilder stringbing = new StringBuilder();
         for (String s: QuestionAnswer.question)
         {
@@ -60,7 +61,11 @@ public class QrDisplayActivity extends AppCompatActivity {
             stringbing.append("\n");
         }
 
-        return stringbing.toString();
+       return stringbing.toString();
+
+
+
+        // Decode the bytes into a String
 
 //        String quests=Qs.getText().toString();
 //        String choice=choices.getText().toString();

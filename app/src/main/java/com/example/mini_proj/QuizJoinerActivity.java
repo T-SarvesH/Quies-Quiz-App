@@ -2,6 +2,7 @@ package com.example.mini_proj;
 
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -18,6 +19,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.preference.PreferenceManager;
 
 import com.example.mini_proj.databinding.ActivityQuizJoinerBinding;
 
@@ -130,10 +132,10 @@ public class QuizJoinerActivity extends AppCompatActivity implements View.OnClic
         }else{
             passStatus = "Failed";
         }
-
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
         new AlertDialog.Builder(this)
                 .setTitle(passStatus)
-                .setMessage("Score is "+ score+" out of "+ totalQuestion)
+                .setMessage(sp.getString("signature","")+"'s score is "+ score+" out of "+ totalQuestion)
                 .setPositiveButton("Go to Home Page",(dialogInterface, i) -> restartQuiz() )
                 .setCancelable(false)
                 .show();

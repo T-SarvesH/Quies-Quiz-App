@@ -13,8 +13,11 @@ import android.widget.Toast;
 import com.journeyapps.barcodescanner.ScanContract;
 import com.journeyapps.barcodescanner.ScanOptions;
 
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.zip.Deflater;
+import java.util.zip.Inflater;
 
 public class RecieveQuiz extends AppCompatActivity {
 
@@ -70,6 +73,8 @@ public class RecieveQuiz extends AppCompatActivity {
         QuestionAnswer.choices.clear();
         try {
             Log.d("ques", "jo" + z);
+            byte[] output = z.getBytes(StandardCharsets.UTF_8);
+            // Decompress the bytes
             String[] decompose = z.split("&&&");
             String[] questionsp = decompose[0].split("---");
             String[] choices = decompose[1].split("---");
